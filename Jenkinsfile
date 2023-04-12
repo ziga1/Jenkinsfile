@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Print message') {
             steps {
-                sh 'echo "Ratal mi je!"'
+                sh 'javac Main.java'  // Compile the Java code
+                sh 'java Main'        // Run the compiled Java program
             }
         }
     }
