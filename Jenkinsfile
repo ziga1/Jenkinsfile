@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Print message') {
             steps {
-                sh 'echo "I did it!"'
+                sh 'echo "Ratal mi je!"'
             }
         }
     }
